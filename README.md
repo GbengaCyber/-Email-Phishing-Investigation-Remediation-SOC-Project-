@@ -2,7 +2,7 @@
 
 
 
-# 🛡️ Project Overview
+## 🛡️ Project Overview
 - This project documents a realistic SOC Tier 1/2 email phishing investigation, focusing on detection, analysis, containment, remediation, and lessons learned using Microsoft Defender XDR &amp; cloud telemetry.
 
 - The phishing attack was intentionally simulated in a controlled lab environment to validate detection capabilities, analyst response, and security controls.
@@ -34,20 +34,20 @@ This incident was intentionally simulated in a controlled lab environment to rep
 
 ---
 
-🧪 Simulation Setup
+## 🧪 Simulation Setup
 
 - I Created a test user account: test@xxx.onmicrosoft.com in my Azure tenant.
 - I Used an external Gmail account to simulate an attacker-controlled sender
 - Delivered a plain-text phishing email containing a malicious URL (credential harvesting style)
 - Ensured Safe Links policy allowed user click telemetry for detection
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/6add861e-02e6-4aa8-a75f-edb578566257" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/6add861e-02e6-4aa8-a75f-edb578566257" />
 
 
 
 ---
 
-⚔️ Attack Execution
+## ⚔️ Attack Execution
 
 - Phishing email sent from external Gmail address
 - User received and opened the email
