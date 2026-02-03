@@ -67,11 +67,7 @@ Ensured Safe Links policy allowed user click telemetry for detection
 
 ---
 
-## 🎯 Alert
-
-
-
-Alert Details
+## 🎯 Alert Details
 
 Alert Title: Anonymous IP Address
 
@@ -81,23 +77,23 @@ User Name: Test SOC
 
 Suspicious IP Address: 2a0d:5600:8:94::d593:6202
 
-Alert Generated: Jan 29, 2026 – 5:16:58 PM
+Alert Generated: Jan 29, 2026 – 8:41 PM
+
 
 ---
-## 🎯 Investigation
+## 🎯 Investigation Process (Simulated Attack Response)
 
-The following questions were addressed during investigation:
-- Were the source IPs internal or external?
-- Did any successful logons occur after failures?
-- Was a specific account targeted?
-  
-Authentication logs were reviewed to validate impact.
+- Alert Triage
 
+Reviewed alert involving uncommon IP sign-in activity
+
+IP geolocation resolved to United States, not previously associated with the user
+
+Login pattern did not match known historical sign-in behavior
 
 ** Investigation evidence: ** 
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/fd956234-ac46-4199-acc2-145c5b3279d2" />
-
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/e2420fae-4a6d-4998-83e6-5f82e89f513e" />
 
 ---
 
