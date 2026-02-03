@@ -93,6 +93,15 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 
 ** Investigation evidence: ** 
 
+- Correlation & Analysis
+
+- Correlated Azure AD Sign-in Logs with Cloud App Events
+
+- Identified suspicious cloud activity following link interaction
+
+- Evidence indicated credential harvesting
+
+
 - SignInLogs
 
   <img width="1000" height="300" alt="image" src="https://github.com/user-attachments/assets/a488bc62-df05-4f8d-97a1-6db568dffe1f" />
