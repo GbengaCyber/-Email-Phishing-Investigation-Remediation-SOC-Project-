@@ -139,8 +139,13 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 
 - Revoked active sessions
 
+- I added and blocked Phishing URL as an IOC
+
  <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/764e857c-9955-4c9d-9bd2-aa0caaea76ff" />
-<img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/6492a689-e66c-4877-94b7-7eb90dffe793" />
+
+- Anomalous IP was added to IOC
+
+  <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/6492a689-e66c-4877-94b7-7eb90dffe793" />
 
 
 ---
