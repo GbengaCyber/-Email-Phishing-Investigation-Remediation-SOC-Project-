@@ -130,12 +130,16 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
  
  
 ---
-## 🎯 Sentinel Rule Configuration
+## 🎯 Incident Response Actions
+🔒 Containment
 
-A Microsoft Sentinel analytics rule was created to alert on brute force authentication patterns.
+- I Marked user account as Compromised
 
+- Temporarily isolated user access
 
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/643700b0-c3b9-466f-ba59-466049398bd1" />
+- Revoked active sessions
+
+ <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/764e857c-9955-4c9d-9bd2-aa0caaea76ff" />
 
 
 ---
