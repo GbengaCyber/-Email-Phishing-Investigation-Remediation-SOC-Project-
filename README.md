@@ -95,16 +95,13 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 
 - SignInLogs
 
-  <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/a488bc62-df05-4f8d-97a1-6db568dffe1f" />
+  <img width="1000" height="300" alt="image" src="https://github.com/user-attachments/assets/a488bc62-df05-4f8d-97a1-6db568dffe1f" />
 
-  - KQL Query
+- KQL Query
  
-    <img width="750" height="350" alt="image" src="https://github.com/user-attachments/assets/4c66b310-3317-40b5-93a6-db39e7df3ec4" />
+    <img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/4c66b310-3317-40b5-93a6-db39e7df3ec4" />
 
 
-- CloudAppEvents
-  
-<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/e2420fae-4a6d-4998-83e6-5f82e89f513e" />
 
 ---
 
