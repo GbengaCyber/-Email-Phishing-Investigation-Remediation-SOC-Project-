@@ -26,7 +26,7 @@ This incident was intentionally simulated in a controlled lab environment to rep
 
 ---
 
-🎯 Simulation Objective
+## 🎯 Simulation Objective
 
 - Test Microsoft Defender XDR phishing detections
 - Observe user click behavior and cloud sign-in correlation
