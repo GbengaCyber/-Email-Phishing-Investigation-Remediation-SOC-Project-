@@ -116,13 +116,13 @@ This incident was intentionally simulated in a controlled lab environment to rep
 --- 
 ## 🎯 Threat Intelligence
 
-- Phishing sender identified:  ** xxxanina300987@gmail.com **
-- Malicious URL analyzed using Any.Run: https://theme.goopoobai.network/UHHxsoV!3c0tRVPqto/
+- Phishing sender identified:  ** xxxx@gmail.com **
+- Malicious URL analyzed using Any.Run: https://theme.goxxxopoobai.network/UHHxsoV!3c0tRVPqto/
 - Verdict: Suspicious phishing infrastructure
 
 ** Threat Intelligence Evidence **
 
-<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/0e15a483-981f-4013-b637-7581643a56eb" />
+<img width="800" height="300" alt="Screenshot 2026-01-29 at 6 27 22 PM" src="https://github.com/user-attachments/assets/8c729e25-9348-4545-a4a9-4c549a9ac730" />
 
  
  
