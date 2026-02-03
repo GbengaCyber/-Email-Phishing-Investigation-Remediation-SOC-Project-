@@ -3,14 +3,14 @@
 
 
 # 🛡️ Project Overview
-This project documents a realistic SOC Tier 1/2 email phishing investigation, focusing on detection, analysis, containment, remediation, and lessons learned using Microsoft Defender XDR &amp; cloud telemetry.
+- This project documents a realistic SOC Tier 1/2 email phishing investigation, focusing on detection, analysis, containment, remediation, and lessons learned using Microsoft Defender XDR &amp; cloud telemetry.
 
-The phishing attack was intentionally simulated in a controlled lab environment to validate detection capabilities, analyst response, and security controls.
+- The phishing attack was intentionally simulated in a controlled lab environment to validate detection capabilities, analyst response, and security controls.
 
 
 ## Incident Summary
 
-Organization: Tech Creatives
+Organization: TeXX Creatives
 Incident Type: Email Phishing / Credential Harvesting
 Severity: High
 Status: Resolved
