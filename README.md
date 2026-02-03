@@ -1,4 +1,4 @@
-# -Email-Phishing-Investigation-Remediation-SOC-Project-
+# 📧 -Email-Phishing-Investigation-Remediation-SOC-Project-
 
 
 
@@ -28,24 +28,18 @@ This incident was intentionally simulated in a controlled lab environment to rep
 
 🎯 Simulation Objective
 
-Test Microsoft Defender XDR phishing detections
-
-Observe user click behavior and cloud sign-in correlation
-
-Practice end-to-end SOC incident response
+- Test Microsoft Defender XDR phishing detections
+- Observe user click behavior and cloud sign-in correlation
+- Practice end-to-end SOC incident response
 
 ---
 
 🧪 Simulation Setup
 
-I Created a test user account: test@creatives.onmicrosoft.com in my Azure tenant.
-
-I Used an external Gmail account to simulate an attacker-controlled sender
-
-
-Delivered a plain-text phishing email containing a malicious URL (credential harvesting style)
-
-Ensured Safe Links policy allowed user click telemetry for detection
+- I Created a test user account: test@creatives.onmicrosoft.com in my Azure tenant.
+- I Used an external Gmail account to simulate an attacker-controlled sender
+- Delivered a plain-text phishing email containing a malicious URL (credential harvesting style)
+- Ensured Safe Links policy allowed user click telemetry for detection
 
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/6add861e-02e6-4aa8-a75f-edb578566257" />
 
@@ -69,15 +63,11 @@ Ensured Safe Links policy allowed user click telemetry for detection
 
 ## 🎯 Alert Details
 
-Alert Title: Anonymous IP Address
-
-User Identity: test@creatives.onmicrosoft.com
-
-User Name: Test SOC
-
-Suspicious IP Address: 2a0d:5600:8:94::d593:6202
-
-Alert Generated: Jan 29, 2026 – 8:41 PM
+- Alert Title: Anonymous IP Address
+- User Identity: test@creatives.onmicrosoft.com
+- User Name: Test SOC
+- Suspicious IP Address: 2a0d:5600:8:94::d593:6202
+- Alert Generated: Jan 29, 2026 – 8:41 PM
 
 
 ---
@@ -86,19 +76,14 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 - Alert Triage
 
 - Reviewed alert involving uncommon IP sign-in activity
-
 - IP geolocation resolved to United States, not previously associated with the user
-
 - Login pattern did not match known historical sign-in behavior
 
 ** Investigation evidence: ** 
 
 - Correlation & Analysis
-
 - Correlated Azure AD Sign-in Logs with Cloud App Events
-
 - Identified suspicious cloud activity following link interaction
-
 - Evidence indicated credential harvesting
 
 
@@ -118,9 +103,7 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 ## 🎯 🏷️ ROOT CAUSE 
 
 - Initial access achieved via cloud session hijack
-
 - Compromise occurred shortly after phishing link interaction
-
 - Attack vector: Credential harvesting phishing email
 
 ## 🎯 MITRE ATT&CK Mapping
@@ -134,9 +117,7 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 ## 🎯 Threat Intelligence
 
 - Phishing sender identified:  ** anina300987@gmail.com **
-
 - Malicious URL analyzed using Any.Run: https://theme.goopoobai.network/UHHxsoV!3c0tRVPqto/
-
 - Verdict: Suspicious phishing infrastructure
 
 ** Threat Intelligence Evidence **
@@ -150,9 +131,7 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 🔒 Containment
 
 - I Marked user account as Compromised
-
 - Temporarily isolated user access
-
 - Revoked active sessions
 
 
@@ -166,11 +145,8 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
  <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/764e857c-9955-4c9d-9bd2-aa0caaea76ff" />
 
 - Blocked phishing sender address
-
 - Hard-deleted phishing email from all mailboxes
-
 - Revoked MFA sessions
-
 - Forced password reset on next login
 
 ---
@@ -184,36 +160,24 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 ## 🎯 🔄 Recovery
 
 - Confirmed no further malicious activity
-
 - Released user account from isolation
-
 - Restored normal access
-
 ---
 
 ## 🎯 🔄 👩‍🏫 User Awareness
 
 - Conduct phishing awareness training for affected user
-
 - Encourage use of Report Phishing button
 
 🔧 Security Improvements
 
 - Enable and tune Microsoft Defender for Office 365:
-
--nSafe Links
-
+- Safe Links
 - Safe Attachments
-
 - Enhance detection for:
-
 - Anonymous IP sign-ins
-
 - Uncommon cloud session creation
-
 - Implement automated response playbooks:
-
 - Auto-isolate users after confirmed phishing clicks
-
 - Trigger password reset and session revocation
 
