@@ -125,11 +125,22 @@ Source IP addresses were enriched using AbuseIPDB and confirmed to have a malici
 
 ---
 
-## 🎯 Investigation Result
+## 🎯 Phishing Email Analysis
 
-No successful logons were identified.
-The brute force attempt did not result in account compromise.
+Phishing sender identified:
 
+** anina300987@gmail.com **
+
+** Malicious URL analyzed using Any.Run **
+
+https://theme.goopoobai.network/UHHxsoV!3c0tRVPqto/
+
+Verdict: Suspicious phishing infrastructure
+
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/0e15a483-981f-4013-b637-7581643a56eb" />
+
+ ** Evidence **
+ 
 ---
 ## 🎯 Sentinel Rule Configuration
 
