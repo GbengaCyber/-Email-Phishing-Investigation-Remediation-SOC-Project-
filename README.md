@@ -116,30 +116,18 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 
 ## 🎯 Threat Intelligence
 
-Source IP addresses were enriched using AbuseIPDB and confirmed to have a malicious reputation related to brute force activity.
 
-**Threat intelligence evidence:**
+- Phishing sender identified:  ** anina300987@gmail.com **
 
+- Malicious URL analyzed using Any.Run: https://theme.goopoobai.network/UHHxsoV!3c0tRVPqto/
 
-<img width="600" height="350" alt="Screenshot 2026-01-27 at 4 27 09 PM" src="https://github.com/user-attachments/assets/fe961f60-a078-4972-9709-1c3ef5f75aa4" />
+- Verdict: Suspicious phishing infrastructure
 
----
+** Threat Intelligence Evidence **
 
-## 🎯 Phishing Email Analysis
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/0e15a483-981f-4013-b637-7581643a56eb" />
 
-Phishing sender identified:
-
-** anina300987@gmail.com **
-
-** Malicious URL analyzed using Any.Run **
-
-https://theme.goopoobai.network/UHHxsoV!3c0tRVPqto/
-
-Verdict: Suspicious phishing infrastructure
-
-<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/0e15a483-981f-4013-b637-7581643a56eb" />
-
- ** Evidence **
+ 
  
 ---
 ## 🎯 Sentinel Rule Configuration
