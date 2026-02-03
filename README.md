@@ -65,6 +65,23 @@ Ensured Safe Links policy allowed user click telemetry for detection
 
 <img width="600" height="248" alt="Screenshot 2026-01-29 at 6 05 34 PM" src="https://github.com/user-attachments/assets/c3596f7d-0048-4002-960d-6ba93844a3ce" />
 
+---
+
+## 🎯 Alert
+
+
+
+Alert Details
+
+Alert Title: Anonymous IP Address
+
+User Identity: test@creatives.onmicrosoft.com
+
+User Name: Test SOC
+
+Suspicious IP Address: 2a0d:5600:8:94::d593:6202
+
+Alert Generated: Jan 29, 2026 – 5:16:58 PM
 
 ---
 ## 🎯 Investigation
