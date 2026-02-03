@@ -85,14 +85,20 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 
 - Alert Triage
 
-Reviewed alert involving uncommon IP sign-in activity
+- Reviewed alert involving uncommon IP sign-in activity
 
-IP geolocation resolved to United States, not previously associated with the user
+- IP geolocation resolved to United States, not previously associated with the user
 
-Login pattern did not match known historical sign-in behavior
+- Login pattern did not match known historical sign-in behavior
 
 ** Investigation evidence: ** 
 
+- SignInLogs
+
+  <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/a488bc62-df05-4f8d-97a1-6db568dffe1f" />
+
+- CloudAppEvents
+  
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/e2420fae-4a6d-4998-83e6-5f82e89f513e" />
 
 ---
