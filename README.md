@@ -64,7 +64,7 @@ This incident was intentionally simulated in a controlled lab environment to rep
 ## 🎯 Alert Details
 
 - Alert Title: Anonymous IP Address
-- User Identity: test@creatives.onmicrosoft.com
+- User Identity: test@xxx.onmicrosoft.com
 - User Name: Test SOC
 - Suspicious IP Address: 2a0d:5600:8:94::d593:6202
 - Alert Generated: Jan 29, 2026 – 8:41 PM
@@ -116,7 +116,7 @@ This incident was intentionally simulated in a controlled lab environment to rep
 --- 
 ## 🎯 Threat Intelligence
 
-- Phishing sender identified:  ** anina300987@gmail.com **
+- Phishing sender identified:  ** xxxanina300987@gmail.com **
 - Malicious URL analyzed using Any.Run: https://theme.goopoobai.network/UHHxsoV!3c0tRVPqto/
 - Verdict: Suspicious phishing infrastructure
 
