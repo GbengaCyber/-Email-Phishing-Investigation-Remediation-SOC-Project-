@@ -36,7 +36,7 @@ This incident was intentionally simulated in a controlled lab environment to rep
 
 🧪 Simulation Setup
 
-- I Created a test user account: test@creatives.onmicrosoft.com in my Azure tenant.
+- I Created a test user account: test@xxx.onmicrosoft.com in my Azure tenant.
 - I Used an external Gmail account to simulate an attacker-controlled sender
 - Delivered a plain-text phishing email containing a malicious URL (credential harvesting style)
 - Ensured Safe Links policy allowed user click telemetry for detection
