@@ -31,20 +31,11 @@ Status: Resolved
 
 ---
 
-
-## 🎯 Attack Simulation
-
-After onboarding the VM to MDE, I simulated a brute force attack by attempting multiple failed logins using incorrect passwords from two different external IP addresses.
-
-This activity was designed to generate realistic authentication telemetry for detection and investigation.
-
-
-
----
-
 ## 🎯 Attack Simulation (Phishing Scenario)
 
 This incident was intentionally simulated in a controlled lab environment to replicate a common real-world phishing attack and validate SOC detection and response workflows.
+
+---
 
 🎯 Simulation Objective
 
@@ -54,17 +45,22 @@ Observe user click behavior and cloud sign-in correlation
 
 Practice end-to-end SOC incident response
 
+---
+
 🧪 Simulation Setup
 
-Created a test user account: test@creatives.onmicrosoft.com
+I Created a test user account: test@creatives.onmicrosoft.com in my Azure tenant.
 
-Used an external Gmail account to simulate an attacker-controlled sender
+I Used an external Gmail account to simulate an attacker-controlled sender
 
 Delivered a plain-text phishing email containing a malicious URL (credential harvesting style)
 
 Ensured Safe Links policy allowed user click telemetry for detection
 
-<img width="815" height="248" alt="Screenshot 2026-01-29 at 6 05 34 PM" src="https://github.com/user-attachments/assets/c3596f7d-0048-4002-960d-6ba93844a3ce" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/6add861e-02e6-4aa8-a75f-edb578566257" />
+
+
+<img width="600" height="248" alt="Screenshot 2026-01-29 at 6 05 34 PM" src="https://github.com/user-attachments/assets/c3596f7d-0048-4002-960d-6ba93844a3ce" />
 
 
 
