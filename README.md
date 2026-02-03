@@ -114,8 +114,24 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 
 ---
 
-## 🎯 Threat Intelligence
 
+## 🎯 🏷️ ROOT CAUSE 
+
+- Initial access achieved via cloud session hijack
+
+- Compromise occurred shortly after phishing link interaction
+
+- Attack vector: Credential harvesting phishing email
+
+## 🎯 MITRE ATT&CK Mapping
+- T1566.002 – Phishing: Link
+- T1078 – Valid Accounts
+- T1539 – Steal Web Session Cookie (Suspected) 
+
+
+
+--- 
+## 🎯 Threat Intelligence
 
 - Phishing sender identified:  ** anina300987@gmail.com **
 
@@ -139,22 +155,24 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 
 - Revoked active sessions
 
-- I added and blocked Phishing URL as an IOC
+
+---
+
+## 🎯 Incident Response Actions
+🔒 Eradication
+
+- Added phishing URL as Indicator of Compromise (IOC) and blocked tenant-wide
 
  <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/764e857c-9955-4c9d-9bd2-aa0caaea76ff" />
 
-- Anomalous IP was added to IOC
+- Blocked phishing sender address
 
-  <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/6492a689-e66c-4877-94b7-7eb90dffe793" />
+- Hard-deleted phishing email from all mailboxes
 
+- Revoked MFA sessions
 
----
-## 🎯 🏷️ MITRE ATT&CK Mapping
+- Forced password reset on next login
 
-MITRE ATT&CK Mapping
-- T1110 – Brute Force
-- T1110.003 – Password Spraying
-- T1078 – Valid Accounts (conditional)
 ---
 ## 🎯 Response Actions
 
