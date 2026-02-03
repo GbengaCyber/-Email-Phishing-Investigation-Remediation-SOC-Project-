@@ -19,17 +19,6 @@ Status: Resolved
 
 
 ---
-## 🎯 Lab Environment
-
-- Microsoft Defender for Endpoint (MDE)
-- Microsoft Sentinel
-- Log source: `SignInLogs`
-
-<img width="650" height="300" alt="image" src="https://github.com/user-attachments/assets/e8c0fe64-9b9e-49d3-b776-646e87a11d84" />
-
-
-
----
 
 ## 🎯 Attack Simulation (Phishing Scenario)
 
@@ -53,14 +42,16 @@ I Created a test user account: test@creatives.onmicrosoft.com in my Azure tenant
 
 I Used an external Gmail account to simulate an attacker-controlled sender
 
+<img width="600" height="248" alt="Screenshot 2026-01-29 at 6 05 34 PM" src="https://github.com/user-attachments/assets/c3596f7d-0048-4002-960d-6ba93844a3ce" />
+
+
+
 Delivered a plain-text phishing email containing a malicious URL (credential harvesting style)
 
 Ensured Safe Links policy allowed user click telemetry for detection
 
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/6add861e-02e6-4aa8-a75f-edb578566257" />
 
-
-<img width="600" height="248" alt="Screenshot 2026-01-29 at 6 05 34 PM" src="https://github.com/user-attachments/assets/c3596f7d-0048-4002-960d-6ba93844a3ce" />
 
 
 
