@@ -57,7 +57,7 @@ This incident was intentionally simulated in a controlled lab environment to rep
 - Microsoft Defender XDR generated a High-severity alert
 
 
-<img width="600" height="248" alt="Screenshot 2026-01-29 at 6 05 34 PM" src="https://github.com/user-attachments/assets/c3596f7d-0048-4002-960d-6ba93844a3ce" />
+<img width="600" height="248" alt="Screenshot 2026-01-29 at 6 05 34 PM" src="https://github.com/user-attachments/assets/cc38966c-70a8-480b-8b32-84dde9af4bda" />
 
 ---
 
