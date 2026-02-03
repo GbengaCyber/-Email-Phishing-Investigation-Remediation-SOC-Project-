@@ -176,16 +176,44 @@ Alert Generated: Jan 29, 2026 – 8:41 PM
 ---
 ## 🎯 Response Actions
 
-- Block malicious IP addresses (Firewall / NSG)
 - Review authentication activity for lateral movement
 - Reset or disable targeted accounts if required
 - Enforce MFA and account lockout policies
 ---
 
-## 🎯 Skills Demonstrated
+## 🎯 🔄 Recovery
 
-- KQL log analysis
-- SOC alert triage
-- Threat intelligence enrichment
-- MITRE ATT&CK mapping
-- Incident response decision-making
+- Confirmed no further malicious activity
+
+- Released user account from isolation
+
+- Restored normal access
+
+---
+
+## 🎯 🔄 👩‍🏫 User Awareness
+
+- Conduct phishing awareness training for affected user
+
+- Encourage use of Report Phishing button
+
+🔧 Security Improvements
+
+- Enable and tune Microsoft Defender for Office 365:
+
+-nSafe Links
+
+- Safe Attachments
+
+- Enhance detection for:
+
+- Anonymous IP sign-ins
+
+- Uncommon cloud session creation
+
+- Implement automated response playbooks:
+
+- Auto-isolate users after confirmed phishing clicks
+
+- Trigger password reset and session revocation
+
