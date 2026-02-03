@@ -10,10 +10,10 @@
 
 ## Incident Summary
 
-Organization: TeXX Creatives
-Incident Type: Email Phishing / Credential Harvesting
-Severity: High
-Status: Resolved
+- Organization: TeXX Creatives
+- Incident Type: Email Phishing / Credential Harvesting
+- Severity: High
+- Status: Resolved
 
 
 
